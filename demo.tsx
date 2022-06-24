@@ -12,7 +12,7 @@ export default function LinearIndeterminate() {
   return (
     <LinearProgress
       variant="determinate"
-      style={{ width: '50%', backgroundcolor: '#090' }}
+      style={{ width: '100%', height: 30, backgroundcolor: '#090' }}
       value={progress}
       color="info"
     />
